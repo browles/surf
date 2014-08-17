@@ -1,21 +1,22 @@
 <!doctype html>
 <html>
   <head>
-    <script type="text/javascript" src="popup.js"></script>
     <style>
       body {
-        width: 400px;
-        height: 100px;
+        width: 180px;
+        height: 20px;
       }
       input #room {
-        width: 300px;
+        width: 80px;
       }
     </style>
   </head>
   <body>
-  <form>
-    <input type="text" id="room">
+  <div class="roomDiv"></div>
+  <form id="roomSubmit" name="roomSubmit">
+    <input id="room" type="text" name="room">
     <input type="submit" value="Go">
   </form>
+  <script type="text/javascript" src="popup.js"></script>
   </body>
 </html>
