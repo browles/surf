@@ -1,8 +1,7 @@
 var storage = new Firebase('https://fiery-torch-5161.firebaseio.com/'),
 rooms = storage.child('rooms'),
-currentRoom = 'lobby',
+currentRoom = null,
 currentUrl = null;
-console.log('currentRoom =', currentRoom);
 
 
 // Setup listener for form submit on popup.html
