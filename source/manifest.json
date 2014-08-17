@@ -3,7 +3,7 @@
 
   "name": "Surf",
   "description": "This extension surfs.",
-  "version": "1.0",
+  "version": "1.2",
 
   "background": {
     "page": "surf.html"
