@@ -29,7 +29,7 @@ rooms.on('child_changed', function(dataSnapshot) {
 
 // If room is set, submit change to relevant child in storage
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
-  if (!(currentUrl === tab.url)) {
+  if (currentRoom && !(currentUrl === tab.url)) {
     currentUrl = tab.url;
     console.log('Update ',currentRoom)
     rooms.child(currentRoom).update({url: tab.url});
