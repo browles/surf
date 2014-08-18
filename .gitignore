@@ -1,3 +1,4 @@
+*.pem
 .DS_Store
-surf.pem
-source.pem
+.DS_Store?
+._*
