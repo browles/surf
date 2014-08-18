@@ -1,18 +1,18 @@
 {
   "manifest_version": 2,
 
-  "name": "Surf",
+  "name": "Wake",
   "description": "This extension surfs.",
   "version": "1.2",
 
   "background": {
-    "page": "surf.html"
+    "page": "wake.html"
   },
 
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html",
-    "default_title": "Surf"
+    "default_title": "Wake"
   },
 
   "permissions": [
