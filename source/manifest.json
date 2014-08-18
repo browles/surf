@@ -3,7 +3,7 @@
 
   "name": "Wake",
   "description": "This extension surfs.",
-  "version": "1.2",
+  "version": "0.2",
 
   "background": {
     "page": "wake.html"
